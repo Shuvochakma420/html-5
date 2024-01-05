@@ -9,6 +9,12 @@
       display: block;
       margin-bottom: 20px;
     }
+    .gender{
+      text-align: center;
+    }
+    #gender{
+    background-color: aqua ;
+    }
   </style>
 </head>
 <body>
@@ -27,6 +33,15 @@
       </label>
       <label for="phone">Your number:
         <input type="number" name="" id="number" placeholder="Your number"> 
+      </label>
+      <label for="gender">Select gender:
+        <select id="gender" name="gender" id="gender">
+          <option class="gender" value="gay">Gay</option>
+          <option class="gender" value="yes i am gay">Yes i am gay</option>
+          <option class="gender" value="no i am gay">No i am gay</option>
+          <option class="gender" value="maybe i am gay">Maybe i am gay</option>
+          <option value="lesbian">lesbian</option>
+        </select>
       </label>
       <fieldset>
         <legend>pick one pitha</legend>
@@ -63,7 +78,7 @@
         <textarea name="" id="" cols="40" rows="10"></textarea>
       </fieldset>
       <input style="border-radius: 2px; color: whitesmoke; background-color: black;" type="reset" value="Reset">
-      <input type="submit" value="Submit">
+      <a href = "hacked.html">Submit</a>
     </form>
   </section>
 </main>
